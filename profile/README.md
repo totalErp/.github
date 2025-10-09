@@ -52,10 +52,8 @@ Se stai aprendo una nuova repository cliente, vedi la sezione seguente per la **
 
 ## 🤝 Assistenza
 - Email: **assistenza@totalerp.it**
-- Canali: ticket/email (integrazione con repo opzionale per tracciamento versioni)
-- Allegare sempre: **passi per riprodurre**, **screenshot/log**, **urgenza** e **impatto**.
-
-> Suggerimento: per richieste legate a report/ERP, indica **versione**, **ambiente** (test/produzione) e **utente**.
+- Canali: email
+- Telefono: 0364 1916054
 
 ---
 
@@ -64,42 +62,6 @@ Se stai aprendo una nuova repository cliente, vedi la sezione seguente per la **
 - **P. IVA**: **04335950988**
 - **Sede legale**: *Via Primo Maggio, 4 — 25055 Pisogne (BS)*
 - **Sede operativa**: *Via Fausto Cadeo, 34 — 25047 Darfo Boario Terme (BS)*
-
----
-
-## 📂 Struttura consigliata delle repository
-Esempio per un progetto cliente; aggiungi/rimuovi cartelle secondo necessità.
-
-```
-📁 Cliente—RagioneSociale
-├─ 📂 Bus/            # Log e script operativi legati al gestionale
-├─ 📂 Query/          # Query SQL, viste, stored procedure, piani di migrazione
-├─ 📂 Rpt/            # Reportistica (Crystal Reports, layout, assets)
-├─ 📂 Docs/           # Manuali, specifiche, changelog, SLA
-├─ 📂 Scripts/        # Automazioni (es. ETL, batch, tool utilities)
-├─ 📂 Web/            # Sorgenti frontend/backend, template, build
-├─ 📂 Assets/         # Immagini, logo cliente, icone (no dati sensibili)
-└─ README.md          # Istruzioni rapide e note cliente
-```
-
-> **Nota:** su Git non compaiono cartelle **vuote**. Per mantenerle, aggiungi un file `.gitkeep` al loro interno.
-
----
-
-## 🧑‍💻 Linee guida di collaborazione
-- **Branching**: `main` protetto; feature branch con pattern `feat/<breve-descrizione>`, fix `fix/<ticket>`, hotfix `hotfix/<issue>`.
-- **Commit**: messaggi chiari, in italiano o inglese tecnico; collega l’ID del ticket ove presente.
-- **Code Review**: PR piccole e frequenti; checklist (test, lint, doc, rollback plan).
-- **Versioning**: SemVer quando applicabile; changelog in `Docs/CHANGELOG.md`.
-- **Dati**: evitare di versionare **segreti/credenziali**; usare `.env` + vault/secret manager.
-
----
-
-## 🔐 Sicurezza & privacy
-- Niente dati personali reali in test. Usa **dataset anonimizzati**.
-- Se devi condividere file sensibili, utilizza **canali cifrati** e accessi a tempo.
-- Backup e restore **documentati** per ambienti critici.
-- Conformità GDPR: informativa, minimizzazione dati, tracciabilità accessi.
 
 ---
 
