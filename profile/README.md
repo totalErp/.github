@@ -1,11 +1,9 @@
-# 🧩 totalErp — Soluzioni per Imprese che Crescono
-
-> **Gestionali ERP, Hardware, Software e Web** per aziende che vogliono semplificare i processi, integrare i dati e lavorare meglio, ogni giorno.
-
 <p align="center">
   <!-- Sostituisci il file qui sotto con il tuo logo -->
   <img src="assets/logo.png" alt="logo totalErp" width="260">
 </p>
+
+> **Gestionali ERP, Hardware, Software e Web** per aziende che vogliono semplificare i processi, integrare i dati e lavorare meglio, ogni giorno.
 
 ---
 
