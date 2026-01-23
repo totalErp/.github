@@ -75,5 +75,5 @@ Se stai aprendo una nuova repository cliente, vedi la sezione seguente per la **
 ---
 
 <p align="center">
-  © 2025 totalErp — Tutti i diritti riservati
+  © 2026 totalErp — Tutti i diritti riservati
 </p>
