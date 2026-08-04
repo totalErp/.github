@@ -9,6 +9,9 @@ updated_at: "2026-02-20T15:59:35.539Z"
 github_owner: "totalErp"
 github_path: "Documentazione/replica-causali-contabili.md"
 github_branch: "main"
+doc_type: "generic"
+workflow_status: "published"
+template_id: "generic"
 ---
 
 # replica-causali-contabili
@@ -18,25 +21,6 @@ github_branch: "main"
 - Repo: .github
 
 ## Contenuto
-
-
-# replica-causali-contabili
-
-## Riepilogo
-
-- Repo: Giorgetti
-
-## Contenuto
-
----
-title: "Replica causali contabili"
-repo: "Giorgetti"
-tags: ["database", "sql", "trigger", "replica dati"]
-created_at: "2026-01-27T14:58:52.252613Z"
-updated_at: "2026-01-27T14:58:52.252613Z"
-code_path: "Sql\\Trigger Causali Contabili\\trg_sync_tabcauc_to_MKTSANMARINO"
-code_url: "https://github.com/totalErp/Giorgetti/blob/main/Sql\\Trigger Causali Contabili\\trg_sync_tabcauc_to_MKTSANMARINO"
----
 
 # Replica causali contabili
 
@@ -115,15 +99,3 @@ Non viene applicato alcun filtro: **tutte le colonne vengono copiate**.
 - Coerenza totale tra GIORGETTISPA e MARKET
 - Nessun allineamento manuale
 - Evita errori di configurazione tra ambienti
-
-
-
-
-
-
-
-
-
-
-
-
