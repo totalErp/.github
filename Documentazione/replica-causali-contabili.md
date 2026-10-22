@@ -5,7 +5,7 @@ tags: ["database", "sql", "trigger", "replica dati"]
 code_path: ""
 code_url: ""
 created_at: "2026-02-03T10:18:13.346Z"
-updated_at: "2026-08-04T12:38:06.989Z"
+updated_at: "2026-10-09T08:35:35.770Z"
 github_owner: "totalErp"
 github_path: "Documentazione/replica-causali-contabili.md"
 github_branch: "main"
