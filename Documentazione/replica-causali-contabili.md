@@ -1,11 +1,11 @@
 ---
-id: "12733fcc15cf5854"
+id: "a38a1c8dcef26cbe"
 repo: ".github"
 tags: ["database", "sql", "trigger", "replica dati"]
 code_path: ""
 code_url: ""
 created_at: "2026-02-03T10:18:13.346Z"
-updated_at: "2026-10-09T08:35:35.770Z"
+updated_at: "2026-11-03T17:00:11.931Z"
 github_owner: "totalErp"
 github_path: "Documentazione/replica-causali-contabili.md"
 github_branch: "main"
